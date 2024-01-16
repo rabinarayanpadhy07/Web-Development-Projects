@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Balsamiq+Sans:ital@1&family=Noto+Sans&family=Poppins:ital,wght@1,300&family=Roboto:wght@500&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+}
+body{
+    background-color: #bbc6fa;
+
+}
+.qoute-box{
+    background: #fff;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+}
+.qoute-box h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.qoute-box h2::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23,124,229);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.qoute-box blockquote{
+    font-size: 26px;
+    min-height: 110px;
+} 
+.qoute-box blockquote::before, .qoute-box blockquote::after{
+content: '"';
+}
+.qoute-box span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+.qoute-box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23,124,229);
+    position: absolute;
+    top: 50%;
+    left: -30%;
+}
+.qoute-box div{
+    width: 100%;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+}
+.qoute-box button{
+    background: rgb(23, 124, 229);
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgb(23, 124, 229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.qoute-box button img{
+    width: 20px;
+    margin-right: 10px;
+}
+.qoute-box button:nth-child(2){
+    background: transparent;
+    color: #333;
+}
