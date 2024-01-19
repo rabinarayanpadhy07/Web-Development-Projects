@@ -162,5 +162,8 @@
             video player, and the functionality of the popup, such as creating and removing the popup element,
             controlling the video playback, and adding and removing the event listeners.
             <br>
+            34. Form Validation : Form validation is a process of checking the user input data against a set of rules and displaying error messages if the data is invalid. It can be done using HTML, CSS, and JavaScript to create the form, style the elements, and add interactivity and functionality1
+            <br>
+            35: Toast Notification: A toast notification is a pop-up message that provides feedback or alert to the user using HTML, CSS, and JavaScript12. It has a style, a duration, and a close option34. It appears briefly and then fades away automatically or manually.
         </p>
     </div>
