@@ -167,5 +167,7 @@
             35: Toast Notification: A toast notification is a pop-up message that provides feedback or alert to the user using HTML, CSS, and JavaScript12. It has a style, a duration, and a close option34. It appears briefly and then fades away automatically or manually.
             <br>
             36: Image Search Engine : An image search engine is a web application that allows users to find and download images based on their queries. It uses HTML, CSS, and JavaScript to create the user interface, fetch images from an API, and display them dynamically.
+            <br>
+            37: Weather App : A web app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
         </p>
     </div>
