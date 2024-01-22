@@ -168,8 +168,12 @@
             <br>
             36: Image Search Engine : An image search engine is a web application that allows users to find and download images based on their queries. It uses HTML, CSS, and JavaScript to create the user interface, fetch images from an API, and display them dynamically.
             <br>
+<<<<<<< HEAD
             37: Weather App : A web app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
             <br>
             38: Notes App : A notes app that lets you create, edit, and delete notes. Stores notes in local storage. Uses HTML for structure, CSS for style, and JavaScript for functionality.
+=======
+            37: Weather App : A weather app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
+>>>>>>> 3075e86656711626eae23c41a0bbb7cc65c1ed63
         </p>
     </div>
