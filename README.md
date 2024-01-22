@@ -173,6 +173,5 @@
                  37: Weather App : A weather app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
                 <br>
                   38: Notes App : A notes app that lets you create, edit, and delete notes. Stores notes in local storage. Uses HTML for structure, CSS for style, and JavaScript for functionality.
-
         </p>
     </div>
