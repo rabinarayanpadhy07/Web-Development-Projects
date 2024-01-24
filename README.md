@@ -170,17 +170,14 @@
             <br>
             37: Weather App : A web app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
             <br>
-<<<<<<< HEAD
             38: Notes App : A notes app that lets you create, edit, and delete notes. Stores notes in local storage. Uses HTML for structure, CSS for style, and JavaScript for functionality.
             <br>
             37: Weather App : A weather app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
             <br>
             38: Email-Vailidation : Email-validation projects are web applications that check if the user’s email address is valid or not. It use HTML, CSS, and JavaScript to create the user interface, the validation logic, and the error messages. 
             <br>
-=======
                  37: Weather App : A weather app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
                 <br>
                   38: Notes App : A notes app that lets you create, edit, and delete notes. Stores notes in local storage. Uses HTML for structure, CSS for style, and JavaScript for functionality.
->>>>>>> 8709837dc7d031f653f44c0150b730c8d95af659
         </p>
     </div>
