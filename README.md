@@ -179,5 +179,9 @@
                  37: Weather App : A weather app that displays the current weather and forecast for any location. It uses HTML, CSS, and JavaScript to fetch data from a weather API and create a user-friendly interface.
                 <br>
                   38: Notes App : A notes app that lets you create, edit, and delete notes. Stores notes in local storage. Uses HTML for structure, CSS for style, and JavaScript for functionality.
+                <br>
+                39: Password-Manager : This web app lets users save passwords securely using HTML, CSS, and JavaScript. It encrypts passwords with APIs and stores them in local storage. It has a simple and elegant interface.
+                <br>
+                40: Curency- Converter : This web app converts currencies using HTML, CSS, and JavaScript. It fetches real-time exchange rates from an API and displays them with country flags. It has a simple and responsive design
         </p>
     </div>
