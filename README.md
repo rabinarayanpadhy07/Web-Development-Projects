@@ -183,5 +183,7 @@
                 39: Password-Manager : This web app lets users save passwords securely using HTML, CSS, and JavaScript. It encrypts passwords with APIs and stores them in local storage. It has a simple and elegant interface.
                 <br>
                 40: Curency- Converter : This web app converts currencies using HTML, CSS, and JavaScript. It fetches real-time exchange rates from an API and displays them with country flags. It has a simple and responsive design
+                <br>
+                41 : Resturant-Homepage : A restaurant home page is a web page that introduces the restaurant, its menu, location, and reservation options to potential customers using HTML and CSS.
         </p>
     </div>
