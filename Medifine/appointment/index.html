@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="container">
+    <h1 class="title">Book an Appointment</h1>
+    <form class="form" action="/appointment" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="Your phone" required>
+      <label for="health_id">Health ID</label>
+      <input type="text" id="health_id" name="health_id" placeholder="Your health ID" required>
+      <label for="symptoms">Symptoms</label>
+      <input type="text" id="symptoms" name="symptoms" placeholder="Your symptoms" required>
+      <label for="department">Department</label>
+      <select id="department" name="department" required>
+        <option value="">Select a department</option>
+        <option value="Cardiology">Cardiology</option>
+        <option value="Dermatology">Dermatology</option>
+        <option value="ENT">ENT</option>
+        <option value="Gastroenterology">Gastroenterology</option>
+        <option value="Neurology">Neurology</option>
+        <option value="Oncology">Oncology</option>
+        <option value="Orthopedics">Orthopedics</option>
+        <option value="Pediatrics">Pediatrics</option>
+        <option value="Psychiatry">Psychiatry</option>
+        <option value="Surgery">Surgery</option>
+      </select>
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required>
+      <label for="time">Time</label>
+      <input type="time" id="time" name="time" required>
+      <input type="submit" value="Book">
+    </form>
+</body>
+</html>
