@@ -185,5 +185,7 @@
                 40: Curency- Converter : This web app converts currencies using HTML, CSS, and JavaScript. It fetches real-time exchange rates from an API and displays them with country flags. It has a simple and responsive design
                 <br>
                 41 : Resturant-Homepage : A restaurant home page is a web page that introduces the restaurant, its menu, location, and reservation options to potential customers using HTML and CSS.
+                <br>
+                42: Simple-Portfolio : A simple-portfolio homepage using HTML and CSS
         </p>
     </div>
