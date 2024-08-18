@@ -3,11 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tier App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tier List</title>
+    <script src="https://kit.fontawesome.com/0dcec699b7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container">
+
+        <!-- Forms -->
+        <div class="section">
+            <div class="form-section">
+                <form>
+                    <label for="tier"> Tier </label>
+                    <input type="text" name="tier" id="tier" placeholder="Enter Tier field name...">
+                    <button type="submit" id="submit">Submit</button>
+                </form>
     
-    <script src="script.js"></script>
+                <form id="image-form">
+                    <label for="item"> Item </label>
+                    <input type="text" name="item" id="item" placeholder="Enter the item...">
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Teir Fields -->
+        <div class="section">
+            <section id="tier-list-section">
+                <!-- <div class="tier-list">
+                    <h1 class="heading" style="background-color: red;">Sample</h1>
+                    <div class="list-container">
+                        <div class="tier-list-item"></div>
+                        <div class="btn-container">
+                            <i></i>
+                            <i></i>
+                        </div>
+                    </div>
+                </div> -->
+            </section>
+        </div>
+
+        <!-- Items -->
+        <div class="section">
+            <section id="non-tier-section">
+                <div class="item-container" draggable="true">
+                    <img src="https://wallpapers.com/images/hd/captain-america-android-0aqaztdwgpz41epy.jpg">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
