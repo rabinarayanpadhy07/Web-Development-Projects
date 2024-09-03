@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.container {
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    border-radius: 10px;
+    margin: 2rem;
+    width: 600px;
+}
+
+#turn {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 6px 14px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.cell {
+    height: 90px;
+    width: 90px;
+    border: 3px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#restart, #restart-game {
+    background-color: rgba(0, 0, 0, 0.911); 
+    border: none;
+    color: white; 
+    padding: 6px 14px; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 20px; 
+}
+
+#result-card {
+    background-color: #111;
+    color: #fff;
+    display: none;
+    margin: 2rem;
+    padding: 3rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 258px;
+}
+
+#result-card > h1 {
+    margin-bottom: 2rem;
+}
+
+#restart-game {
+    background-color: #fff;
+    color: #111;
+}
+
+.cell {
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 800;
+}
