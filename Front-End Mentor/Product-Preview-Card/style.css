@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:wght@500&family=Inter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #f3eae3;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.card{
+    width: 620px;
+    height: 400px;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.left-side{
+    width: 50%;
+    height: 400px;
+}
+.left-side img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+.right-side p{
+    padding-top: 30px;
+    color: #6c6e73;
+    padding-left: 40px;
+    font-weight: 500;
+}
+.right-side h2{
+    padding-top: 10px;
+    padding-left: 40px;
+   font-family: "Fraunces";
+}
+.paragraph-container p{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.paragraph-container h2{
+    color: #347c62;
+}
+.paragraph-container h2 span{
+    color: #706969;
+    font-size: 15px;
+}
+.paragraph-container button{
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px 32px;
+    background-color: #3d8168;
+    color: #fff;
+    text-align: center;
+    width: 240px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.paragraph-container button:hover{
+   background-color: #1f865d; 
+}
+@media screen and (max-width: 767px) {
+   .card{
+    width: 400px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+   }
+   .left-side img{
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: px;
+   }
+   .paragraph-container button{
+    margin-bottom:15px ;
+   }
+   
+  }
+  

@@ -1,0 +1,122 @@
+/* Adding font */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Inter&family=Red+Hat+Display:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-image: url(assets/pattern-background-desktop.svg);
+  background-color: #e0e8ff;
+  background-image: fixed;
+  background-repeat: no-repeat;
+}
+.container {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  height: 550px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card img {
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.card h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
+}
+.card p {
+  color: #778191;
+  text-align: center;
+}
+.music-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 360px;
+  height: 60px;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.music-container img {
+  width: 60px;
+  height: 60px;
+}
+.music-container p {
+  margin: 10px;
+}
+.music-container p span {
+  color: #000;
+  font-family: "Red Hat Display";
+}
+.music-container button {
+  margin-left: 120px;
+  color:#1500ff  ;
+  border: none;
+  background-color: #e0e8ff;
+  cursor: pointer;
+}
+.music-container button:hover{
+    color: #796dff;
+}
+.payment-btn button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color:#1500ff;
+    cursor: pointer;
+    text-align: center;
+}
+.payment-btn button:hover{
+  background-color:#766cf1;
+}
+.cancel-btn button{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #c6b5b5c4;
+}
+.cancel-btn button:hover{
+    color: #000;
+}
+@media only screen and (max-width: 600px){
+    .card{
+        width: 375px;
+    }
+    .card img{
+        width: 375px;
+    }
+    body{
+        background-image: url(assets/pattern-background-mobile.svg);
+    }
+}
+.footer {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 16px;
+  color:blue;
+}
+.footer a {
+  color:#fb003b;
+}

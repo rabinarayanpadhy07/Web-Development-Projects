@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Hanken+Grotesk:wght@500&family=Inter&family=Red+Hat+Display:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+bodY{
+    background-color: #fff;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.card{
+    background-color:#fff;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.left-container{
+    background-color:#553af7;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-container h3{
+    color:#b7acff;
+}
+.left-container p{
+    border: ;
+}
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
